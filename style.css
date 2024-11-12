@@ -1,0 +1,703 @@
+@import url('https://fonts.googleapis.com/css2?family=Protest+Riot&family=Rubik+Moonrocks&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Balsamiq+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Protest+Riot&family=Rubik+Moonrocks&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Balsamiq+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Lilita+One&family=Protest+Riot&family=Rubik+Moonrocks&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Balsamiq+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Lilita+One&family=Pacifico&family=Protest+Riot&family=Rubik+Moonrocks&display=swap');
+
+
+body {
+    background-image: url(img/img90.jpg);
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+
+
+}
+.form .newhere {
+    align-items: center;
+    text-align: center;
+    margin-left: 500px;
+    position: absolute;
+}
+header {
+    color: rgb(71, 70, 70);
+    text-align: center;
+    padding-top: 0%;
+    padding-bottom: 0%;
+    margin-top: -46px;
+    margin-right: -8px;
+    margin-left: -8px;
+
+}
+.functions {
+    padding: 0.1cm;
+    position: sticky;
+    top: 1%;
+    left: 10%;
+    z-index: 1;
+    margin-top: -65px;
+}
+
+header h1 {
+    font-family: "Pacifico", sans-serif;
+    font-size: 6cap;
+    padding-top: 0%;
+}
+
+header nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+header nav ul li {
+    display: inline;
+    margin-right: 10px;
+}
+
+header nav ul li a {
+    color: rgb(12, 1, 69);
+    text-decoration: none;
+    font-weight: 500;
+}
+
+
+
+.home {
+    display: flex;
+    min-height: 100vh;
+    width: 93%;
+    background-size: cover;
+    background-position: center;
+    margin-top: 0px;
+}
+.home .content {
+    max-width: 100%;
+}
+.home .content h3 {
+    font-size: 4rem;
+    color: #425d73;
+    font-style: italic;
+    font-family: "Pacifico", sans-serif;
+
+}
+.home .content p {
+    font-size: 1.5rem;
+    color: #2d516e;
+    padding: 1rem 0;
+    line-height: 1.5;
+    max-width: 50rem;
+    font-family: "Lilita One", sans-serif;
+    text-align: left;
+}
+.home {
+    position: relative;
+    padding: 50px;
+    text-align: left;
+    color: white;
+}
+
+.home .content {
+    text-align: left;
+    position: absolute;
+    max-width: 600px;
+    margin-top: 0px;
+    margin-left: 300px;
+}
+.home h3 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+.home p {
+    font-size: 1.2rem;
+    line-height: 1.5;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* special items */
+
+
+
+
+
+.current-order .order-header h1 {
+    color: rgb(255, 255, 255);
+    /* font-family: "Lilita One", sans-serif; */
+    font-size: 2.5cap;
+    font-style: initial;
+}
+
+
+
+#specialItems .special-item {
+    margin-bottom: 20px;
+    position: relative;
+    /* background-color: rgb(218, 245, 255); Set background to white */
+    background-color: rgba(6, 6, 6, 0.4);
+    padding: 15px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+
+}
+
+#specialItems .special-item h3 {
+    margin: 0 0 10px 0;
+    font-size: 1.4rem;
+    color: #ffffff;
+    /* Darker text color for better contrast */
+    font-style: inherit;
+}
+
+#specialItems .special-item p {
+    margin: 15px 0;
+    color: #ffffff;
+    /* Gray color for the details */
+    font-size: 1.2rem;
+}
+
+#specialItems .special-item button {
+    padding: 10px;
+    background-color: #878dad;
+    /* Darker button color */
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    width: 25%;
+    font-size: 1.8cap;
+}
+
+#specialItems .special-item button:hover {
+    background-color: #b1c4de;
+}
+
+
+h2 {
+    margin-top: 0;
+}
+
+
+
+
+.specials-container {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: flex-start;
+}
+
+#specialItems {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    margin-left: 100px;
+    margin-right: 12px;
+
+}
+
+
+/* currunt order */
+
+.current-order {
+    width: 50%;
+    height: 300.5cap;
+    background-color: rgba(0, 0, 0, 0.4);
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-right: 100px;
+   
+}
+
+.order-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.order-items {
+
+    overflow-y: auto;
+    margin-bottom: 20px;
+    color: #ffffff;
+
+}
+
+.order-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+
+
+.order-item-info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-grow: 1;
+}
+
+.price {
+    font-weight: bold;
+    color: #ffffff;
+    font-size: 2cap;
+}
+
+.quantity-control {
+    display: flex;
+    align-items: center;
+}
+
+.quantity-btn {
+    padding: 5px;
+    background-color: #f0f0f0;
+    border: none;
+    cursor: pointer;
+    margin: 0 5px;
+}
+
+.order-summary {
+    padding: 10px 0;
+    border-top: 1px solid #e0e0e0;
+    margin-top: 0px;
+    width: 50%;
+}
+
+.summary-row {
+    display: flex;
+    justify-content: space-between;
+    padding: 5px 0;
+}
+
+.summary-total {
+    display: flex;
+    justify-content: space-between;
+    font-weight: bold;
+    padding-top: 10px;
+    color: #ffffff;
+    font-size: 2cap;
+}
+
+.payment-button {
+    width: 100%;
+    padding: 10px;
+    background-color:  #b1c4de;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 2cap;
+    color: #011661;
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+.payment-button:hover {
+    background-color:  #63677b;
+}
+
+
+/* table reservation */
+
+
+#reservationForm {
+
+    background-color: rgba(6, 6, 6, 0.4);
+    padding: 20px;
+    border-radius: 10px;
+    display: inline-block;
+    max-width: 600px;
+    height: fit-content;
+
+    margin-left: 350px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+
+
+
+form label,
+form input,
+form button {
+    margin: 10px 0;
+}
+
+form input {
+    width: 70%;
+    height: 40px;
+    font-size: 2cap;
+}
+
+
+form button {
+    width: 150px;
+    height: 50px;
+    font-size: 16px;
+    padding: 10px;
+    background-color: #899ab5;
+    color: white;
+    cursor: pointer;
+}
+
+
+
+button:hover {
+    background-color: #5a5a5a;
+}
+
+
+
+
+.reservations h2 {
+    font-size: 3cap;
+    color: #0b2275;
+    font-family: "Lilita One", sans-serif;
+    text-align: left;
+}
+
+
+.name {
+    color: #f9f9f9;
+    font-family: "Lilita One", sans-serif;
+    font-size: 2cap;
+}
+
+.email {
+    color: #f9f9f9;
+    font-family: "Lilita One", sans-serif;
+    font-size: 2cap;
+}
+
+.date {
+    color: #f9f9f9;
+    font-family: "Lilita One", sans-serif;
+    font-size: 2cap;
+}
+
+.time {
+    color: #f9f9f9;
+    font-family: "Lilita One", sans-serif;
+    font-size: 2cap;
+}
+
+.guests {
+    color: #f9f9f9;
+    font-family: "Lilita One", sans-serif;
+    font-size: 2cap;
+}
+
+
+
+
+/* reviews */
+
+
+h2 {
+    color: white;
+    font-family: "Lilita One", sans-serif;
+    font-size: 3cap;
+    text-align: center;
+}
+
+.reviews-section {
+    max-width: 1500px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: rgba(6, 6, 6, 0.4);
+}
+
+.reviews-section h1 {
+    text-align: center;
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+.review-summary {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.review-summary h2 {
+    font-size: 2rem;
+}
+
+.review-summary p {
+    font-size: 1.5rem;
+    margin: 10px 0;
+}
+
+.review-summary p span {
+    font-weight: bold;
+    color: #ff6a00;
+}
+
+.review-summary button {
+    padding: 10px 20px;
+    background-color: #ff6a00;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.reviews-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+}
+
+.review-card {
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    background-color: rgba(6, 6, 6, 0.5);
+}
+
+.review-header {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.review-header img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.review-header h3 {
+    margin: 0;
+    font-size: 1.2rem;
+    color: #ffffff;
+}
+
+.review-header p {
+    margin: 0;
+    color: #888;
+}
+
+.review-rating span {
+    color: #ff6a00;
+    font-size: 1.5rem;
+}
+
+.review-card p {
+    color: #ffffff;
+}
+
+
+
+/* About Us */
+
+
+
+
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.about {
+    display: flex;
+    align-items: center;
+    padding: 50px 0;
+    background-color: rgba(6, 6, 6, 0.4);
+    padding: 50px 0;
+}
+
+.AboutOurRestaurant {
+    color: #b0b0b0;
+    font-size: 4cap;
+}
+
+.about-text {
+    flex: 1;
+    padding-right: 20px;
+    color: #f8f8f8;
+    font-size: 2cap;
+}
+
+.about-image {
+    flex: 1;
+}
+
+.about-image img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.services {
+    background-color: rgba(6, 6, 6, 0.4);
+    padding: 50px 0;
+    text-align: center;
+}
+
+.services h2 {
+    margin-bottom: 30px;
+}
+
+.service-items {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.service-item {
+    flex: 1;
+    min-width: 250px;
+    max-width: 300px;
+    padding: 20px;
+    margin: 10px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+}
+
+.service-item i {
+    font-size: 40px;
+    margin-bottom: 10px;
+}
+
+.our-team {
+    padding: 50px 0;
+    text-align: center;
+    background-color: rgba(6, 6, 6, 0.4);
+    border-radius: 10px;
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+    
+    width: 100%;
+}
+
+.our-team h2 {
+    margin-bottom: 30px;
+}
+
+.team-members {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    color: #dbdbdb;
+    gap: 20px;
+    justify-content: center;
+}
+
+.team-member {
+    flex: 1;
+    min-width: 200px;
+    max-width: 1000px;
+    margin: 10px;
+    text-align: center;
+    align-items: center;
+}
+
+.team-member img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 50%;
+    margin-bottom: 15px;
+}
+
+.social-icons a {
+    margin: 0 5px;
+    text-decoration: none;
+    color: #555;
+}
+
+.footer {
+    background-color: #333;
+    color: #fff;
+    padding: 30px 0;
+}
+
+.footer .container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.footer-column {
+    flex: 1;
+    min-width: 200px;
+    margin: 10px;
+}
+
+.footer-column h3 {
+    margin-bottom: 15px;
+}
+
+.footer-column ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-column ul li {
+    margin-bottom: 10px;
+}
+
+.footer-column ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.newsletter {
+    text-align: center;
+    padding: 50px 0;
+}
+
+.newsletter h2 {
+    margin-bottom: 10px;
+}
+
+.newsletter form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.newsletter form input[type="email"] {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    margin-right: 10px;
+    font-size: 16px;
+}
+
+.newsletter form button {
+    padding: 10px 20px;
+    border: none;
+    background-color: #ff9900;
+    color: #fff;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
